@@ -45,7 +45,30 @@
             }
 
             .title {
-                font-size: 84px;
+                font-size: 74px;
+            }
+  
+            @media (max-width: 575.98px){
+                .title {
+                font-size: 64px;
+                }
+            }
+  
+            @media (min-width: 576px) and (max-width: 767.98px){
+                .title {
+                font-size: 64px;
+                }
+            }
+  
+            @media (min-width: 768px) and (max-width: 991.98px){
+                .title {
+                font-size: 74px;
+                }
+            }
+                @media (min-width: 1200px){
+                    .title {
+                font-size: 80px;
+                }
             }
 
             .links > a {
@@ -84,15 +107,7 @@
                     Beers O'Clock
                 </div>
 
-                <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>
+             
             </div>
         </div>
     </body>
